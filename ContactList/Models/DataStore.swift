@@ -7,8 +7,8 @@
 
 class DataStore {
     let names = [
-        "Tim", "Craig", "Eddy", "Phil", "Jeff",
-        "Jonathan", "Angela", "Dan", "Johny", "Luca"
+        "Tim", "Craig", "Eddy", "Phil", "Jeff", "Jonathan",
+        "Angela", "Dan", "Johny", "Luca"
     ]
     
     let surNames = [
@@ -24,9 +24,9 @@ class DataStore {
     
     let emails = [
         "first@apple.com", "second@apple.com", "third@apple.com",
-        "fourth@apple.com", "fifth@apple.com",
-        "sixth@apple.com", "seventh@apple.com",
-        "eighth@apple.com", "ninth@apple.com", "tenth@apple.com"
+        "fourth@apple.com", "fifth@apple.com", "sixth@apple.com",
+        "seventh@apple.com", "eighth@apple.com", "ninth@apple.com",
+        "tenth@apple.com"
     ]
 }
 

@@ -5,7 +5,7 @@
 //  Created by Timur Dzamikh on 04.03.2023.
 //
 
-struct Contact {
+struct Person {
     let name: String
     let surName: String
     let phoneNumber: String
@@ -15,16 +15,16 @@ struct Contact {
         "\(name) \(surName)"
     }
     
-    static func getContactList() -> [Contact] {
-        var contacts: [Contact] = []
+    static func getContactList() -> [Person] {
+        var contacts: [Person] = []
         
         let names = dataStore.names.shuffled()
         let surNames = dataStore.surNames.shuffled()
         let phoneNumbers = dataStore.phones.shuffled()
         let emails = dataStore.emails.shuffled()
         
-        for index in 0...9 {
-            let contact = Contact(
+        for index in 0..<names.count {
+            let contact = Person(
                 name: names[index],
                 surName: surNames[index],
                 phoneNumber: phoneNumbers[index],
