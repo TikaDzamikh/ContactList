@@ -50,7 +50,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="M57-ey-X8K">
-                                <rect key="frame" x="16" y="160" width="361" height="69.333333333333314"/>
+                                <rect key="frame" x="16" y="180" width="361" height="69.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="phone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWd-jl-xtN">
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="21.666666666666668"/>
@@ -71,7 +71,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="M57-ey-X8K" firstAttribute="leading" secondItem="7nm-az-DWZ" secondAttribute="leading" constant="16" id="gBT-Fb-Zyr"/>
-                            <constraint firstItem="M57-ey-X8K" firstAttribute="top" secondItem="4dL-vg-PBS" secondAttribute="top" constant="160" id="jHk-es-CO8"/>
+                            <constraint firstItem="M57-ey-X8K" firstAttribute="top" secondItem="4dL-vg-PBS" secondAttribute="top" constant="180" id="jHk-es-CO8"/>
                             <constraint firstItem="7nm-az-DWZ" firstAttribute="trailing" secondItem="M57-ey-X8K" secondAttribute="trailing" constant="16" id="oEj-8x-lEp"/>
                         </constraints>
                     </view>
